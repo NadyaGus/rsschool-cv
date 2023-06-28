@@ -8,6 +8,15 @@
 ### About Me:
 
 ### Skills:
+* Hard-Skills:
+  - HTML, CSS, JS
+  - Git and GitHub, VSCode
+  - Figma, AdobePhotoshop
+
+* Soft-Skills:
+  - Self-discipline and time management
+  - Ability to learn and self-learn
+  - Communication skills
 
 ### Code examples:
 ```
