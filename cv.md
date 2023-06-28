@@ -2,11 +2,14 @@
 ### Junior Frontend Developer
 *********
 ### Contacts
-+ **Phone**: +7 925 854 38 68
-+ **Email**: nadyagus95@mail.ru
-+ **Telegram**: @NadyaGus
++ **Phone:**:+7 925 854 38 68
++ **Email:** nadyagus95@mail.ru
++ **Telegram:** @NadyaGus
++ **Location:** Moscow, Russia
 ### About Me:
-
+I'm a beginner front-end developer, who continues to learn for a while and has no intention of stopping.
+I want to become part of the team and create beautiful and user-friendly websites and web applications.
+I love some videogames, delicious food and my cats.
 ### Skills:
 * Hard-Skills:
   - HTML, CSS, JS
@@ -33,5 +36,5 @@ console.log(result);
 * RSS:
    - JS/FE Pre-School 2023Q2 (in progress)
 ### Languages:
-* Russian (nativ speaker)
+* Russian (native speaker)
 * English (A2)
