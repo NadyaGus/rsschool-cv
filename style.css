@@ -54,6 +54,10 @@ h1 {
     font-size: 56px;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 .about-me {
     display: flex;
     margin-bottom: 0;
@@ -140,7 +144,7 @@ section {
 }
 
 .skill-table li {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 }
 
 .skill-table li:last-child {
@@ -154,6 +158,36 @@ section {
 
 pre {
     margin: 28px auto;
-    padding: 20px;
+    margin-bottom: 0;
+    padding: 40px 60px;
     background-color: #22222E;
+}
+
+.experience {
+    margin: 0 96px;
+    margin-top: 100px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.projects li {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.projects figcaption {
+    position: relative;
+    bottom: 66px;
+    padding: 20px;
+    color: #292935;
+    background-color: #FFCD04;
+}
+
+.a-project {
+    text-decoration: none;
 }
