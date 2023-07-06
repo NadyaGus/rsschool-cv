@@ -117,7 +117,7 @@ section {
 }
 
 .skills {
-    margin-left: 96px;
+    margin: 0 96px;
 }
 
 .skills h2 {
@@ -145,4 +145,15 @@ section {
 
 .skill-table li:last-child {
     margin-bottom: 0;
+}
+
+.code {
+    margin: 0 96px;
+    margin-top: 100px;
+}
+
+pre {
+    margin: 28px auto;
+    padding: 20px;
+    background-color: #22222E;
 }
