@@ -191,3 +191,31 @@ pre {
 .a-project {
     text-decoration: none;
 }
+
+.education-and-langueges {
+    display: flex;
+    margin-left: 96px;    
+}
+
+.wrapper-education {
+    flex-grow: 1;
+}
+ 
+.wrapper-langueges {
+    flex-grow: 1; 
+}
+
+.education-and-langueges li {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.education-and-langueges li::marker {
+    color: #FFCD04;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
