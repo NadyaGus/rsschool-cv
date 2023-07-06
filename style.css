@@ -1,1 +1,65 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #f0f8ff;
+    background-color: #292935;
+}
+
+.page-header {
+    display: block;
+    margin: 0 auto;
+    width: 1120px;
+    background-color: #FFCD04;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 96px;
+    list-style: none;
+}
+
+.site-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #292935;
+    text-decoration: none; 
+}
+
+.site-nav a:hover {
+    font-weight: bold;
+}
+
+.main-content {
+    display: block;
+    margin: 0 auto;
+    width: 1120px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me img {
+    width: 400px;
+    height: 440px;
+    margin-left: 96px;
+    margin-right: 60px;
+}
 
