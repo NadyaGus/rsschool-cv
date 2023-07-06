@@ -12,6 +12,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
+    font-size: 18px;
     color: #f0f8ff;
     background-color: #292935;
 }
@@ -48,6 +49,7 @@ body {
 }
 
 h1 {
+    margin: 36px 0;
     font-weight: bold;
     font-size: 56px;
 }
@@ -57,9 +59,35 @@ h1 {
 }
 
 .about-me img {
-    width: 400px;
-    height: 440px;
-    margin-left: 96px;
-    margin-right: 60px;
+    margin-left: 96px;;
+    margin-right: 80px;
 }
 
+.about-me-div {
+    width: 520px;
+}
+
+.vacancy {
+    display: inline;
+    padding: 4px;
+    text-transform: uppercase;
+    color: #292935;
+    background-color: #FFCD04;
+    border-radius: 4px;
+}
+
+#about {
+    margin-top: 36px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 32px;
+    border-bottom: 4px solid #f0f8ff;
+}
+
+.about-me-div p {
+    margin-top: 32px;
+}
