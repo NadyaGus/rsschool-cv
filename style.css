@@ -91,3 +91,22 @@ h2::after {
 .about-me-div p {
     margin-top: 32px;
 }
+
+.contacts {
+    color: #292935;
+    background-color: #FFCD04;
+}
+
+.contacts ul {
+    display: flex;
+    margin: 0 96px;
+    padding: 36px 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.contacts-item {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
