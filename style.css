@@ -192,6 +192,14 @@ pre {
     text-decoration: none;
 }
 
+.a-project:hover {
+    font-weight: bold;
+}
+
+.project img:hover {
+    box-shadow: 0px 0px 20px 0px rgba(255, 205, 4, 0.0);
+}
+
 .education-and-langueges {
     display: flex;
     margin-left: 96px;    
