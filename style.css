@@ -56,6 +56,7 @@ h1 {
 
 .about-me {
     display: flex;
+    margin-bottom: 0;
 }
 
 .about-me img {
@@ -92,6 +93,10 @@ h2::after {
     margin-top: 32px;
 }
 
+section {
+    margin-bottom: 80px;  
+}
+
 .contacts {
     color: #292935;
     background-color: #FFCD04;
@@ -109,4 +114,35 @@ h2::after {
     margin-bottom: 8px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.skills {
+    margin-left: 96px;
+}
+
+.skills h2 {
+    margin-bottom: 28px;
+}
+
+.skills-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.skills-wrapper img {
+    padding-top: 8px;
+}
+
+.skill-table {
+    margin-right: 52px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.skill-table li {
+    margin-bottom: 25px;
+}
+
+.skill-table li:last-child {
+    margin-bottom: 0;
 }
