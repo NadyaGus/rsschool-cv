@@ -1,12 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>CV Nadya Gusakova</title>
 </head>
+
 <body>
-    <h1>My CV</h1>
-    <p>Nadya Gusakova</p>
+    <div class="container">
+    <header class="page-header">
+        <nav>
+            <ul class="site-nav">
+                <li><a href="https://NadyaGus.github.io/rsschool-cv#skill-section">Skills</a></li>
+                <li><a href="https://NadyaGus.github.io/rsschool-cv#code-section">Code examples</a></li>
+                <li><a href="https://NadyaGus.github.io/rsschool-cv#exp=section">Experience</a></li>
+                <li><a href="https://NadyaGus.github.io/rsschool-cv#edu&lang">Education & Langueges</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="about-me">
+            <img src="img/Nadya_Gusakova.png" alt="Nadya Gusakova avatar"> <!--I need to take a photo. But an avatar is fine too-->
+            <div class="about-me-div">
+                <h1>Nadya Gusakova</h1>
+                <p class="vacancy">Junior Front-end Developer</p>
+                <h2 id="about">About me</h2>
+                <p>I'm a beginner front-end developer, who continues to learn for a while and has no intention of stopping.
+                I want to become part of the team and create beautiful and user-friendly websites and web applications.
+                I love some videogames, delicious food and my cats.</p>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <ul>
+                <li>
+                    <h3 class="contacts-item">Phone</h3>
+                    <p class="contacts-info">7 925 854 38 68</p>
+                </li>
+                <li>
+                    <h3 class="contacts-item">Email</h3>
+                    <p class="contacts-info">nadyagus95@mail.ru</p>
+                </li>
+                <li>
+                    <h3 class="contacts-item">Telegram</h3>
+                    <p class="contacts-info">@NadyaGus</p>
+                </li>
+                <li>
+                    <h3 class="contacts-item">GitHub</h3>
+                    <p class="contacts-info">NadyaGus</p>
+                </li>
+            </ul>
+        </section>
+
+        <section  id="skill-section" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-wrapper">
+                <ul class="skill-table">
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git & GitHub</li>
+                    <li>Figma</li>
+                </ul>
+                <img src="img/skills.png" width=720 height="174" alt="My Skills">
+            </div>
+        </section>
+
+        <section  id="code-section" class="code">
+            <h2>Code examples</h2>
+                <pre>
+                * {
+                    margin: 0;
+                    padding: 0
+                }
+                
+                .container {
+                    margin: 0 auto;
+                    width: 1120px;
+                    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.2);
+                }
+                
+                body {
+                    font-family: 'Lato', sans-serif;
+                    font-style: normal;
+                    font-size: 18px;
+                    color: #f0f8ff;
+                    background-color: #292935;
+                }
+                
+                .page-header {
+                    display: block;
+                    margin: 0 auto;
+                    width: 1120px;
+                    background-color: #FFCD04;
+                }
+                </pre>
+        </section>
+
+        <section id="exp-section" class="experience">
+            <h2>My projects</h2>
+            <ul class="projects">
+                <li>
+                    <a class="a-project" href="https://nadyagus.github.io/rsschool-cv/">
+                       <figure class="project">
+                          <img src="img/project1.png" width="436" height="310" alt="My first project">
+                          <figcaption>HTML & CSS code for my CV</figcaption>
+                       </figure>
+                    </a>
+                </li>
+                <!--For future projects-->
+                <!--
+                <li><img src="img/project1.png" width="436" height="310" alt="Project image">
+                    <figure class="project">
+                        <img src="img/project1.png" width="436" height="310" alt="My first project">
+                        <figcaption>HTML & CSS code for my CV</figcaption>
+                    </figure>
+                </li>
+                <li><img src="img/project1.png" width="436" height="310"alt="Project image">
+                    <figure class="project">
+                        <img src="img/project1.png" width="436" height="310" alt="My first project">
+                        <figcaption>HTML & CSS code for my CV</figcaption>
+                    </figure>
+                </li>
+                -->
+            </ul>
+        </section>
+
+          <section id="edu&lang" class="education-and-langueges">
+            <div class="wrapper-education">
+                <h2>Education</h2>
+                    <ul class="education-list">
+                        <li>
+                            <h3>RS.School</h3>
+                            <p>JS/FE Pre-School 2023Q2 (in progress)</p>
+                        </li>
+                        <li>
+                            <h3>code-basics</h3>
+                            <p>JHTML, CSS, JS Courses 100%</p>
+                        </li>
+                        <li>
+                            <h3>learn.javascript.ru</h3>
+                            <p>Manual</p>
+                        </li>
+                    </ul>
+            </div>
+            <div class="wrapper-langueges">
+                <h2>Langueges</h2>
+                <ul class="langueges">
+                    <li>Russian (Native speaker)</li>
+                    <li>English (A2)</li>
+                </ul>
+            </div>
+          </section>
+        
+    </main>
+
+    <footer class="main-footer">
+        <ul class="footer-nav">
+            <li><a href="https://github.com/NadyaGus"><img src="img/logo-github.svg" alt="GitHub"></a></li>
+            <li>2023</li>
+            <li><a href="https://rs.school/js/"><img src="img/logo-rsschool3.png" alt="RSSchool Logo"></a></li>
+        </ul>
+    </footer>
+    </div>
 </body>
+
 </html>
