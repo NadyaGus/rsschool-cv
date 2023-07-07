@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #f0f8ff;
+    background-color: #292935;
+}
+
+.page-header {
+    display: block;
+    margin: 0 auto;
+    width: 1120px;
+    background-color: #FFCD04;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 96px;
+    list-style: none;
+}
+
+.site-nav a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #292935;
+    text-decoration: none; 
+}
+
+.site-nav a:hover {
+    font-weight: bold;
+}
+
+.main-content {
+    display: block;
+    margin: 0 auto;
+    width: 1120px;
+}
+
+h1 {
+    margin: 36px 0;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.about-me {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.about-me img {
+    margin-left: 96px;;
+    margin-right: 80px;
+}
+
+.about-me-div {
+    width: 520px;
+}
+
+.vacancy {
+    display: inline;
+    padding: 4px;
+    text-transform: uppercase;
+    color: #292935;
+    background-color: #FFCD04;
+    border-radius: 4px;
+}
+
+#about {
+    margin-top: 36px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 32px;
+    border-bottom: 4px solid #FFCD04;
+}
+
+.about-me-div p {
+    margin-top: 32px;
+}
+
+section {
+    margin-bottom: 80px;  
+}
+
+.contacts {
+    color: #292935;
+    background-color: #FFCD04;
+}
+
+.contacts ul {
+    display: flex;
+    margin: 0 96px;
+    padding: 36px 0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.contacts-item {
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills {
+    margin: 0 96px;
+}
+
+.skills h2 {
+    margin-bottom: 28px;
+}
+
+.skills-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.skills-wrapper img {
+    padding-top: 8px;
+}
+
+.skill-table {
+    margin-right: 52px;
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.skill-table li {
+    margin-bottom: 26px;
+}
+
+.skill-table li:last-child {
+    margin-bottom: 0;
+}
+
+.code {
+    margin: 0 96px;
+    margin-top: 100px;
+}
+
+pre {
+    margin: 28px auto;
+    margin-bottom: 0;
+    padding: 40px 60px;
+    background-color: #22222E;
+}
+
+.experience {
+    margin: 0 96px;
+    margin-top: 100px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.projects li {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.projects figcaption {
+    position: relative;
+    bottom: 66px;
+    padding: 20px;
+    color: #292935;
+    background-color: #FFCD04;
+}
+
+.a-project {
+    text-decoration: none;
+}
+
+.a-project:hover {
+    font-weight: bold;
+}
+
+.project img:hover {
+    box-shadow: 0px 0px 20px 0px rgba(255, 205, 4, 0.0);
+}
+
+.education-and-langueges {
+    display: flex;
+    margin-left: 96px;    
+}
+
+.wrapper-education {
+    flex-grow: 1;
+}
+ 
+.wrapper-langueges {
+    flex-grow: 1; 
+}
+
+.education-and-langueges li {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.education-and-langueges li::marker {
+    color: #FFCD04;
+}
+
+.education-and-langueges p {
+    margin-top: 8px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.main-footer { 
+    background-color: #FFCD04;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 180px;
+    padding: 36px 0;
+    align-items: center;
+    font-weight: bold;
+    color: #292935;
+    list-style: none;
+}
+
+.footer-nav a {
+    text-decoration: none;
+}
