@@ -1,1 +1,2 @@
-# rsschool-cv
+- https://nadyagus.github.io/rsschool-cv/cv
+- https://nadyagus.github.io/rsschool-cv/
